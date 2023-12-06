@@ -1,0 +1,74 @@
+body {
+    font-family: cursive;
+    background-color: #cb598f;
+    margin: 0;
+}
+
+.super-header {
+    background-color: #712f4e;
+    height: 2rem;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.column {
+    /* flex-grow flex-shrink flex-basis */
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.title {
+    font-size: large;
+    font-weight: 600;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: grab;
+}
+
+.tag-select {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 10px;
+    ;
+    cursor: pointer;
+}
+
+.add-card,
+.add-list {
+    color: gray;
+    padding: 10px;
+    width: inherit;
+}
+
+.add-card {
+    margin-top: 7px;
+}
+
+.add-card:hover,
+.add-list:hover {
+    background-color: rgba(9, 30, 66, .13);
+    cursor: text;
+}

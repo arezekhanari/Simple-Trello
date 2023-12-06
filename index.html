@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="super-header"></div>
+
+  <div class="board">
+    <div class="column">
+      <div class="column-body" id="do-column-body">
+        <div class="title">To Do</div>
+        <div class="card" draggable="true">
+          <div class="name">Question Pool</div>
+          <div class="tag-container">
+            <select class="tag-select" title="tag">
+              <option value="tag" selected hidden disabled>Tag</option>
+              <option value="high">High</option>
+              <option value="normal">Normal</option>
+              <option value="low">Low</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="add-card">+ Add another card</div>
+    </div>
+
+    <div class="column">
+      <div class="column-body" id="doing-column-body">
+        <div class="title">Doing</div>
+        <div class="card" draggable="true">
+          <div class="name">Create Team Sheet</div>
+          <div class="tag-container">
+            <select class="tag-select" title="tag">
+              <option value="tag" selected hidden disabled>Tag</option>
+              <option value="high">High</option>
+              <option value="normal">Normal</option>
+              <option value="low">Low</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="add-card">+ Add another card</div>
+    </div>
+
+    <div class="column">
+      <div class="column-body" id="done-column-body">
+        <div class="title">Done</div>
+        <div class="card" draggable="true">
+          <div class="name">Salary Sheet</div>
+          <div class="tag-container">
+            <select class="tag-select" title="tag">
+              <option value="tag" selected hidden disabled>Tag</option>
+              <option value="high">High</option>
+              <option value="normal">Normal</option>
+              <option value="low">Low</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="add-card">+ Add another card</div>
+    </div>
+
+    <div class="column">
+      <div class="add-list">+ Add another list</div>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
