@@ -62,11 +62,11 @@ tagSelects.forEach((select) => {
 function getTagColor(tagValue) {
     switch (tagValue) {
         case 'high':
-            return '#FE3939';
+            return '#FB3640';
         case 'normal':
             return 'white';
         case 'low':
-            return '#007FFF';
+            return '#14FFF7';
         default:
             return 'white';
     }
