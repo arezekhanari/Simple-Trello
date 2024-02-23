@@ -1,6 +1,6 @@
 # Simple Trello-like Board
 
-A lightweight Trello-inspired task management board implemented using HTML, CSS, and JavaScript. This project provides a user-friendly interface with drag-and-drop functionality and priority-tagged cards.
+This project is a task management board that takes inspiration from Trello. It is implemented using HTML, CSS, and JavaScript, and features a user-friendly interface with drag-and-drop functionality and priority-tagged cards.
 
 ## Features
 
