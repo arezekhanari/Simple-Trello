@@ -15,7 +15,7 @@ A lightweight Trello-inspired task management board implemented using HTML, CSS,
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/simple-trello.git
+   git clone https://github.com/arezekhanari/simple-Trello.git
    ```
 
 2. Open `index.html` in your web browser.
